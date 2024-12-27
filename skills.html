@@ -11,66 +11,61 @@
             padding: 0px;
         }
 
-        body {
+        /* body {
             background-color: #19263b;
-        }
-        .headerdiv {
+        } */
+        /* .headerdiv {
             background-color: black;
             padding-top: 10px;
             padding-bottom: 10px;
-        }
-        .navbar{
+        } */
+        /* .navbar{
             display: flex;
             justify-content: space-between;
-        }
-        .navname{
+        } */
+        /* .navname{
             color: white;
             font-size: 32px;
             padding: 0px 75px;
-        }
-        .navitem {
+        } */
+        /* .navitem {
             display: inline;
-            /* padding-left: 60px; */
-            /* padding-right: 60px; */
             padding-top: 15px;
             padding-bottom: 15px;
             font-size: 17px;
             margin: auto;
-        }
+        } */
 
-        a {
+        /* a {
             color: white;
             text-decoration: none;
-        }
+        } */
 
-        .navlist {
+        /* .navlist {
             display: flex;
-            /* padding: 50px 50px; */
-            /* align-items: center; */
-            /* padding-left: 300px; */
         }
         .navlist li{
             padding: 0px 50px;
-        }
+        } */
 
-        h1 {
+        /* h1 {
             color: #2fe86d;
             text-align: center;
             padding-top: 100px;
             padding-bottom: 30px;
-        }
+        } */
 
-        .photos img{
+        /* .photos img{
             height: 200px;
             width: 200px;
             padding: 20px;
-        }
+        } */
 
-        .main {
+        /* .main {
             margin-bottom: 70px;
-        }
+        } */
 
-        footer {
+        /* footer {
             color: white;
             background-color: black;
             padding-top: 20px;
@@ -105,84 +100,77 @@
             height: 15px;
             width: 15px;
             padding-right: 8px;
-        }
+        }*/
         a:hover{
             color: orange;
-        }
-        .copyright{
+        } 
+        /* .copyright{
             color: grey;
             text-align: center;
         }
         span.footitem{
             font-size: 32px;
-        }
+        } */
     </style>
 </head>
 
-<body>
-    <div class="headerdiv">
+<body style="background-color: #19263b;">
+    <div class="headerdiv" style="background-color: black; padding-top: 10px; padding-bottom: 10px;">
         <header class="header">
-            <nav class="navbar">
-                <p class="navname">Pulkit's &nbsp;Portfolio</p>
-                <ul class="navlist">
-                    <li class="navitem"><a href="./index.html">Home</a></li>
-                    <li class="navitem"><a href="./about.html">About</a></li>
-                    <li class="navitem"><a href="./edu.html">Education</a></li>
-                    <li class="navitem"><a href="./exp.html">Experiences &amp; Projects</a></li>
-                    <li class="navitem"><a href="./skills.html">Skills</a></li>
+            <nav class="navbar" style="display: flex; justify-content: space-between;">
+                <p class="navname" style="color: white; font-size: 32px; padding: 0px 75px;">Pulkit's &nbsp;Portfolio</p>
+                <ul class="navlist" style="display: flex;">
+                    <li class="navitem" style="display: inline; padding-top: 15px; padding-bottom: 15px; font-size: 17px; margin: auto; padding: 0px 50px;"><a href="./index.html" style="color: white; text-decoration: none;">Home</a></li>
+                    <li class="navitem" style="display: inline; padding-top: 15px; padding-bottom: 15px; font-size: 17px; margin: auto; padding: 0px 50px;"><a href="./edu.html" style="color: white; text-decoration: none;">Education</a></li>
+                    <li class="navitem" style="display: inline; padding-top: 15px; padding-bottom: 15px; font-size: 17px; margin: auto; padding: 0px 50px;"><a href="./exp.html" style="color: white; text-decoration: none;">Experiences &amp; Projects</a></li>
+                    <li class="navitem" style="display: inline; padding-top: 15px; padding-bottom: 15px; font-size: 17px; margin: auto; padding: 0px 50px;"><a href="./skills.html" style="color: white; text-decoration: none;">Skills</a></li>
+                    <li class="navitem" style="display: inline; padding-top: 15px; padding-bottom: 15px; font-size: 17px; margin: auto; padding: 0px 50px;"><a href="./about.html" style="color: white; text-decoration: none;">About &amp; Contact</a></li>
                 </ul>
             </nav>
         </header>
     </div>
-    <div class="main">
-        <h1>My Skills Include:</h1>
+    <div class="main" style="margin-bottom: 70px;">
+        <h1 style="color: #2fe86d; text-align: center; padding-top: 100px; padding-bottom: 30px;">My Skills Include:</h1>
         <div class="photos">
-            <img src="./skillsphoto/html.webp" alt="html" class="skillphoto">
-            <img src="./skillsphoto/css.png" alt="css" class="skillphoto">
-            <img src="./skillsphoto/js.jpg" alt="js" class="skillphoto">
-            <img src="./skillsphoto/sql.png" alt="sql" class="skillphoto">
-            <img src="./skillsphoto/mongodb.jpg" alt="mongodb" class="skillphoto">
-            <img src="./skillsphoto/node.png" alt="nodeJS" class="skillphoto">
-            <img src="./skillsphoto/expressjs.png" alt="expressJS" class="skillphoto">
-            <img src="./skillsphoto/reactjs.png" alt="ReactJS" class="skillphoto">
-            <img src="./skillsphoto/java.jpg" alt="Java" class="skillphoto">
-            <img src="./skillsphoto/c.png" alt="C" class="skillphoto">
-            <img src="./skillsphoto/c++.png" alt="C++" class="skillphoto">
-            <img src="./skillsphoto/python.png" alt="Python" class="skillphoto">
+            <img src="./skillsphoto/html.webp" alt="html" class="skillphoto" style="height: 200px; width: 200px; padding: 20px;">
+            <img src="./skillsphoto/css.png" alt="css" class="skillphoto" style="height: 200px; width: 200px; padding: 20px;">
+            <img src="./skillsphoto/js.jpg" alt="js" class="skillphoto" style="height: 200px; width: 200px; padding: 20px;">
+            <img src="./skillsphoto/sql.png" alt="sql" class="skillphoto" style="height: 200px; width: 200px; padding: 20px;">
+            <img src="./skillsphoto/mongodb.jpg" alt="mongodb" class="skillphoto" style="height: 200px; width: 200px; padding: 20px;">
+            <img src="./skillsphoto/node.png" alt="nodeJS" class="skillphoto" style="height: 200px; width: 200px; padding: 20px;">
+            <img src="./skillsphoto/expressjs.png" alt="expressJS" class="skillphoto" style="height: 200px; width: 200px; padding: 20px;">
+            <img src="./skillsphoto/reactjs.png" alt="ReactJS" class="skillphoto" style="height: 200px; width: 200px; padding: 20px;">
+            <img src="./skillsphoto/java.jpg" alt="Java" class="skillphoto" style="height: 200px; width: 200px; padding: 20px;">
+            <img src="./skillsphoto/c.png" alt="C" class="skillphoto" style="height: 200px; width: 200px; padding: 20px;">
+            <img src="./skillsphoto/c++.png" alt="C++" class="skillphoto" style="height: 200px; width: 200px; padding: 20px;">
+            <img src="./skillsphoto/python.png" alt="Python" class="skillphoto" style="height: 200px; width: 200px; padding: 20px;">
         </div>
     </div>
-    <footer>
-        <div class="boxfoot">
-            <span class="footitem">Pulkit's Portfolio</span>
-            <ul class="footitem">
-                <li class="footlistitem"><a href="./index.html">Home</a></li>
-                <li class="footlistitem"><a href="./about.html">About</a></li>
-                <li class="footlistitem"><a href="./edu.html">Education</a></li>
-                <li class="footlistitem"><a href="./exp.html">Experiences and Projects</a></li>
-                <li class="footlistitem"><a href="./skills.html">Skills</a></li>
+    <footer style=" color: white; background-color: black; padding-top: 20px; font-size: 20px;">
+        <div class="boxfoot" style="display: flex; padding-top: 10px;">
+            <span class="footitem" style="padding-right: 50px; padding-left: 100px; padding-bottom: 20px; font-size: 32px;">Pulkit's Portfolio</span>
+            <ul class="footitem" style="padding-right: 50px; padding-left: 100px; padding-bottom: 20px;">
+                <li class="footlistitem" style="padding: 5px;"><a href="./index.html" style="color: white; text-decoration: none;">Home</a></li>
+                <li class="footlistitem" style="padding: 5px;"><a href="./edu.html" style="color: white; text-decoration: none;">Education</a></li>
+                <li class="footlistitem" style="padding: 5px;"><a href="./exp.html" style="color: white; text-decoration: none;">Experiences and Projects</a></li>
+                <li class="footlistitem" style="padding: 5px;"><a href="./skills.html" style="color: white; text-decoration: none;">Skills</a></li>
+                <li class="footlistitem" style="padding: 5px;"><a href="./about.html" style="color: white; text-decoration: none;">About &amp; Contact</a></li>
             </ul>
-            <!-- <ul class="footitem">
-                <li class="footlistitem">Home</li>
-                <li class="footlistitem">About</li>
-                <li class="footlistitem">Education</li>
-                <li class="footlistitem">Experiences and Projects</li>
-                <li class="footlistitem">Skills</li>
-            </ul> -->
-            <span class="footitem">Contact Me:</span>
-            <ul class="footitem" style="list-style-type: none;">
-                <li class="footlistitem"><a href="https://www.instagram.com/"><img src="./footerlogo/instagramedit.jpg"
-                            alt="instagram">Instagram</a></li>
-                <li class="footlistitem"><a href="https://www.facebook.com/"><img src="./footerlogo/facebook.jpg"
-                            alt="facebook">Facebook</a></li>
-                <li class="footlistitem"><a href="https://www.linkedin.com/in/pulkit-singhroha-44ba6927b/"><img
-                            src="./footerlogo/linkedin.png" alt="linkedin">LinkekdIn</a></li>
-                <li class="footlistitem"><a href="https://x.com/PSinghroha65366"><img src="./footerlogo/twitter.png"
-                            alt="Twitter">Twitter</a></li>
-                <li class="footlistitem"><a href="https://discord.com/"><img src="./footerlogo/discord.png"
-                            alt="Discord">Discord</a></li>
+            <span class="footitem" style="padding-right: 50px; padding-left: 100px; padding-bottom: 20px;font-size: 32px;">Contact Me:</span>
+            <ul class="footitem" style="list-style-type: none; padding-right: 50px; padding-left: 100px; padding-bottom: 20px;">
+                <li class="footlistitem" style="padding: 5px;"><a href="https://www.instagram.com/" style=" color: white; text-decoration: none;"><img src="./footerlogo/instagramedit.jpg"
+                            alt="instagram" style="height: 15px; width: 15px; padding-right: 8px;">Instagram</a></li>
+                <li class="footlistitem" style="padding: 5px;"><a href="https://www.facebook.com/" style=" color: white; text-decoration: none;"><img src="./footerlogo/facebook.jpg"
+                            alt="facebook" style="height: 15px; width: 15px; padding-right: 8px;">Facebook</a></li>
+                <li class="footlistitem" style="padding: 5px;"><a href="https://www.linkedin.com/in/pulkit-singhroha-44ba6927b/" style=" color: white; text-decoration: none;"><img
+                            src="./footerlogo/linkedin.png" alt="linkedin" style="height: 15px; width: 15px; padding-right: 8px;">LinkekdIn</a></li>
+                <li class="footlistitem" style="padding: 5px;"><a href="https://x.com/PSinghroha65366" style=" color: white; text-decoration: none;"><img src="./footerlogo/twitter.png"
+                            alt="Twitter" style="height: 15px; width: 15px; padding-right: 8px;">Twitter</a></li>
+                <li class="footlistitem" style="padding: 5px;"><a href="https://discord.com/" style=" color: white; text-decoration: none;"><img src="./footerlogo/discord.png"
+                            alt="Discord" style="height: 15px; width: 15px; padding-right: 8px;">Discord</a></li>
             </ul>
         </div>
-        <p class="copyright">copyright &copy; pulkitsinghroha.com | All rights reserved</p>
+        <p class="copyright" style="text-align: center; padding-bottom: 12px; color: grey; text-align: center;">copyright &copy; pulkitsinghroha.com | All rights reserved</p>
     </footer>
 </body>
 
